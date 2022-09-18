@@ -32,3 +32,16 @@ I study at the English Faculty. After 2 years of study, I realized that this is 
             return sum;
     }
     
+## Education: 
+
+**Minsk State Linguistic University** (2021 - 2026) - English Faculty
+
+## Courses:
+
+- [JavaScript for beginners](https://stepik.org/course/2223/syllabus) - Stepik - 100%
+
+![img](https://stepik.org/certificate/f88166b3b8b0e080a0ad814d0287ec5e8a859362.png?resolution=medium)
+
+- [HTML & CSS Fundamentals](https://stepik.org/course/38218/syllabus) - Stepik - In progress...
+
+    
