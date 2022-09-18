@@ -44,4 +44,10 @@ I study at the English Faculty. After 2 years of study, I realized that this is 
 
 - [HTML & CSS Fundamentals](https://stepik.org/course/38218/syllabus) - Stepik - In progress...
 
+## Languages:
+
+- **English** - B1/B2 (according to EF SET)
+- **Russian** - Native speaker
+- **Belarusian** - Native speaker
+
     
