@@ -8,7 +8,7 @@
 }
 
 body {
-   background-color: white;
+   background-color:whitesmoke;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -24,6 +24,7 @@ body {
    box-shadow: black;
    border-left: 50px solid white;
    border-right: 50x solid white;
+
 }
 
 .container .top {
@@ -94,5 +95,121 @@ body {
 
 }
 
+.container .contentBox ul li {
+   list-style: none;
+   margin: 17px 0;
+   line-height: 1em;
+   color: #333;
+   cursor: pointer;
+   display: flex;
+}
+.container .contentBox ul li ion-icon {
+   font-size: 1.2em;
+   margin-right: 10px;
+   color: #800000;
+}
 
- 
+.container .contentBox ul.education li {
+   flex-direction: column;
+   margin: 20px 0;
+}
+
+h5 {
+   color: #800000;
+   margin: 2px 0;
+}
+
+h4 {
+   color: #333;
+   font-weight: 600;
+   margin: 2px 0;
+} 
+
+h6 {
+   color: #666;
+   font-weight: 300;
+   font-size: 1em;
+   margin: 5px 0;
+}
+
+.language li {
+   flex-direction: column;
+}
+
+.language li span {
+   color: #333;
+   font-size: 16px;
+   font-weight: 600;
+}
+
+.language .percent {
+   position: relative;
+   width: 100%;
+   background: #bbbbbb;
+   height: 6px;
+   margin-top: 15px;
+   margin-bottom: 10px;
+   display: block;
+   overflow: hidden;
+}
+
+.language .percent .progress {
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 100%;
+   background: #800000;
+}
+
+p {
+   font-style: 600;
+}
+
+.rightSide {
+   padding-left: 45px;
+}
+
+.about .box {
+   display: flex;
+   flex-direction: row;
+   margin: 30px 0;
+}
+
+.rightSide .about .box .year_education {
+   min-width: 150px;
+   margin-bottom: 10px;
+}
+
+.skills .box {
+   position: relative;
+   width: 100%;
+   display: grid;
+   grid-template-columns: 150px 1fr;
+   justify-content: center;
+   align-items: center;
+}
+
+.skills .box h4 {
+   color: #333;
+   font-weight: 600;
+   margin-bottom: 5px;
+}
+
+.skills .box .percent {
+   position: relative;
+   width: 100%;
+   background: #bbbbbb;
+   height: 6px;
+   margin-top: 15px;
+   margin-bottom: 10px;
+   display: block;
+   overflow: hidden;
+}
+
+.skills .box .percent .progress {
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 100%;
+   background: #800000;
+}
