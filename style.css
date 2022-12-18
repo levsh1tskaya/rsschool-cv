@@ -4,7 +4,10 @@
    box-sizing: border-box;
    font-family: 'Jost', sans-serif;
    font-family: 'Roboto', sans-serif;
+}
 
+a:hover{
+   text-decoration: underline;
 }
 
 body {
@@ -82,6 +85,13 @@ body {
    display: grid;
    grid-template-columns: 1fr 2fr;
    padding: 40px 40px 40px;
+}
+
+
+a {
+   text-decoration: none;
+   color: #333;
+   margin: 0 0 5px 0;
 }
 
 .container .contentBox h3 {
@@ -213,3 +223,14 @@ p {
    height: 100%;
    background: #800000;
 }
+
+.codeExample pre {
+   background-color: rgba(156,156,156,0.4);
+   border-radius: 10px;
+   padding: 10px;
+   color: #800000;
+}
+
+
+
+
