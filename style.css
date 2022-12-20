@@ -234,6 +234,11 @@ p {
 }
 
 .footer {
+   height: 60px;
+}
+
+.footer__logo {
+=======
    display: flex;
    flex: 0 0 auto;
 }
