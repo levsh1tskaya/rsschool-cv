@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>CV Levshitskaya</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,500;1,500&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+   <div class="container">
+      <div class="top">
+         <div class="img">
+            <div class="box">
+            <img src="img\my photo.jpg" alt="my photo">
+         </div>
+      </div>
+      <div class="infText">
+         <h3>Anastasia <br>Levshitskaya <br> <span>Junior Front-end Developer</span></h3>
+         </div>
+      </div>
+      <div class="contentBox">
+         <div class="leftSide">
+            <h3>Contact Info</h3>
+            <ul>
+               <li>
+                  <a href="https://t.me/levsh1tskaya">
+                  <span class="ico"><ion-icon name="paper-plane-outline"></ion-icon></span>
+                  <span class="text">levsh1tskaya</span>
+                  </a>
+               </li>
+               <li>
+                  <span class="ico"><ion-icon name="mail-outline"></ion-icon></span>
+                  <span class="text">anastasialevsh@mail.ru</span>
+               </li>
+               <li>
+                  <span class="ico"><ion-icon name="call-outline"></ion-icon></span>
+                  <span class="text">+375 29 898-13-95</span>
+               </li>
+               <li>
+                  <a href="https://github.com/levsh1tskaya">
+                  <span class="ico"><ion-icon name="logo-github"></ion-icon></span>
+                  <span class="text">levsh1tskaya</span>
+                  </a>
+               </li>
+            </ul>
+            <h3>Education</h3>
+            <ul class="education">
+               <li>
+                  <h5>2021 - 2026</h5>
+                  <h4>Linguist</h4>
+                  <h6>Minsk State Linguistic University</h6>
+               </li>
+            </ul>
+            <h3>Language</h3>
+            <ul class="language">
+               <li>
+                  <span class="text">English</span>
+                  <span class="percent">
+                     <div class="progress" style="width: 75%;"></div>
+                  </span>
+               </li>
+               <li>
+                  <span class="text">Russian</span>
+                  <span class="percent">
+                     <div class="progress" style="width: 100%;"></div>
+                  </span>
+               </li>
+               <li>
+                  <span class="text">Belarusian</span>
+                  <span class="percent">
+                     <div class="progress" style="width: 90%;"></div>
+                  </span>
+               </li>
+            </ul>
+         </div>
+         <div class="rightSide">
+            <div class="about">
+               <h3>Profile</h3>
+               <p>
+                  At the moment I am an 19-year-old student of MSLU. I study at the English Faculty. After 2 years of study, I realized that this is not what I want to do and found a more interesting area for myself - web development. Now I am doing everything possible to become a qualified specialist in this field.
+               </p>
+            </div>
+            <h3>Experience</h3>
+            <div class="box">
+               <div class="year_education">
+                  <h5>2022</h5>
+                  <h6>The Rolling Scopes</h5>
+               </div>
+               <div class="text">
+                  <h4>JavaScript/Front-end 2022Q3</h4>
+               </div>
+            </div>
+            <div class="skills">
+               <h3>Professional Skills</h3>
+               <div class="box">
+                <h4>HTML</h4>
+                  <span class="percent">
+                     <div class="progress" style="width: 70%;"></div>
+                  </span>
+             </div>
+               <div class="box">
+                  <h4>CSS</h4>
+                  <span class="percent">
+                   <div class="progress" style="width: 55%;"></div>
+                  </span>
+               </div>
+               <div class="box">
+                  <h4>JavaScript</h4>
+                  <span class="percent">
+                     <div class="progress" style="width: 45%;"></div>
+                  </span>
+               </div>
+               <div class="box">
+                  <h4>C#</h4>
+                  <span class="percent">
+                     <div class="progress" style="width: 15%;"></div>
+                  </span>
+               </div>
+               <div class="box">
+                  <h4>Git/GitHub</h4>
+                  <span class="percent">
+                     <div class="progress" style="width: 75%;"></div>
+                  </span>
+               </div>
+            </div>
+            <div class="code">
+               <h3>Code Example</h3>
+            </div>
+            <span class="codeExample">
+               <pre>function numberOfPairs(gloves) {
+                  let pairs = 0;
+                  let count = {}
+                  for (let color of gloves) {
+                    if (color in count) {
+                      count[color]++;
+                    } else {
+                      count[color] = 1;
+                    }
+                    if (count[color] === 2) {
+                      pairs++;
+                      count[color] = 0;
+                    }
+                  }
+                  return pairs;
+                }</pre>
+            </span>
+         </div>
+      </div>
+   </div>
+   <footer class="footer">
+      <a href="https://rs.school/js/" target="_blank">
+         <img src="img\rsschool.png" alt="rss-logo" class="footer__logo">
+       </a>
+   </footer>
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
