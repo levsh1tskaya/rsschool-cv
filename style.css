@@ -1,4 +1,4 @@
-*{
+* {
    padding: 0;
    margin: 0;
    box-sizing: border-box;
@@ -6,13 +6,14 @@
    font-family: 'Roboto', sans-serif;
 }
 
-a:hover{
+a:hover {
    text-decoration: underline;
 }
 
 body {
-   background-color:whitesmoke;
+   background-color: whitesmoke;
    display: flex;
+   flex-direction: column;
    justify-content: center;
    align-items: center;
    min-height: 100vh;
@@ -113,6 +114,7 @@ a {
    cursor: pointer;
    display: flex;
 }
+
 .container .contentBox ul li ion-icon {
    font-size: 1.2em;
    margin-right: 10px;
@@ -133,7 +135,7 @@ h4 {
    color: #333;
    font-weight: 600;
    margin: 2px 0;
-} 
+}
 
 h6 {
    color: #666;
@@ -225,12 +227,16 @@ p {
 }
 
 .codeExample pre {
-   background-color: rgba(156,156,156,0.4);
+   background-color: rgba(156, 156, 156, 0.4);
    border-radius: 10px;
    padding: 10px;
    color: #800000;
 }
 
+.footer {
+   height: 60px;
+}
 
-
-
+.footer__logo {
+   height: 30px;
+}
